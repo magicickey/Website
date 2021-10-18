@@ -15,6 +15,24 @@
 @media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
 @media (min-width: @screen-lg-min) { ... }
 
+
+.btn-lg
+{
+  <button type="button" class="btn btn-primary btn-lg">Large button</button>
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+
+*** FONTS ***/
+@import url(https://fonts.googleapis.com/css2?family=Anton&display=swap:400,400i,700,700i);
+
+
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
   .parallax {
